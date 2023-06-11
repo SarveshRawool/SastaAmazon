@@ -1,0 +1,25 @@
+.list-items{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+.cat-nav-container{
+    background-color: #1e1e1e;
+    max-width: 100%;
+    border-top: rgb(65, 65, 65) solid 1px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+.list-items a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;    
+}
+.list-items a::after{
+    content: "";
+    display: block;
+    height: 0.1px;
+    background-color: aqua;
+}
